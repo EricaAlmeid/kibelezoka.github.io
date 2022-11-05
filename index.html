@@ -10,44 +10,53 @@
 
     </head>
     <body>
-    	 
-         <div class="slider">
 
-            <div class="slider">
-                <!--Radio Buttons-->
+        
+        <header>
+            <h1 class="titulo-principal">Kibelezoca Make-up</h1>
+        </header>
+
+    	 
+        <div class= "slider">
+
+            <div class="slides">
+                <!---Radio Buttons-->
 
                 <input type="radio" name="radio-btn" id="radio1">
                 <input type="radio" name="radio-btn" id="radio2">
                 <input type="radio" name="radio-btn" id="radio3">
                 <input type="radio" name="radio-btn" id="radio4">
 
-                <!--Fim Radio Buttons-->
+                <!---Fim Radio Buttons-->
 
-                <!--Imagens dos slides-->
+                <!---Imagens-->
 
-                <div class="slider first">
-                    <img src="imagens\logo2.png" alt="Imagen1/">
-                    
+                <div class="slide first">
+
+                   <img src="imagens\logo.png" alt="imagen1"> 
+
                 </div>
 
-                <div class="slider ">
-                    <img src="imagens\nova-base2.png" alt="Imagen2/">
-                    
+                <div class="slide">
+ 
+                   <img src="imagens\verao.png" alt="imagen2"> 
+                   
                 </div>
 
-                <div class="slider ">
-                    <img src="imagens\modelo2.png" alt="Imagen3/">
-                    
+                <div class="slide">
+
+                   <img src="imagens\modelo.png" alt="imagen3" > 
+                   
                 </div>
 
-                 <div class="slider ">
-                    <img src="imagens\novidades-verao2.png" alt="Imagen4/">
-                    
+                <div class="slide">
+
+                   <img src="imagens\nova.png" alt="imagen4" > 
+                   
                 </div>
+                <!--- Fim Imagens-->
 
-                <!---Fim das imagens dos slides-->
-
-                <!---Auto Navegação-->
+                <!---Navigation auto-->
 
                 <div class="navigation-auto">
                     <div class="auto-btn1"></div>
@@ -57,23 +66,44 @@
                     
                 </div>
 
-                
+
+            
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
             </div>
 
 
-            <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
+
+        </div>
+
+         <div class="principal">
+          <h2 class="titulo-centralizado" >Sobre a Kibelezoca</h2> 
+
+          </div>
+
+        <div class="Produtos">
+
+          <h3 class="titulo-centralizado">Produtos</h3>
+          <ul>
+            <li class="itens">PELE</li>
+            <li class="itens">OLHOS</li>
+            <li class="itens">GLOSSES</li>
+            <li class="itens">BATONS</li>
+            <li class="itens">KITS</li>
+          </ul>
+        </div>
+
+      
 
 
-         </div> 
+        <script src="script.js"></script>    
 
-  
-         </div>
-
-         <script src="script.js"></script>
+        
     </body>
     
 </html>
