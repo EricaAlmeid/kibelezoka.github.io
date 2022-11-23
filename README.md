@@ -7,3 +7,5 @@ Uma pagina Web
 
 Kibelezoca é  meu terceiro projeto,  uma pagina Web  criada durante a mentoria do  Pedro Marins e do Henrique de Andrade.
 
+![kibelezoca](https://user-images.githubusercontent.com/115961939/203557743-14b29242-bb05-4111-bebb-4f090696b808.gif)
+
